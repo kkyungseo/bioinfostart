@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Your Mate Is...</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">   
+
+    <script language = "javascript">
+        
+        var imgArray = new Array();
+       
+        imgArray[0] = "/Users/k.kyung_seo/Desktop/🥕/노랑이_대지\ 1.jpg" ;
+        imgArray[1] = "/Users/k.kyung_seo/Desktop/🥕/빨강이_대지\ 1.jpg";
+        imgArray[2] = "/Users/k.kyung_seo/Desktop/🥕/초록이_대지\ 1.jpg";
+        imgArray[3] = "/Users/k.kyung_seo/Desktop/🥕/파랑이_대지\ 1.jpg";
+        
+        function showImage(){
+            var imgNum = Math.round(Math.random()*3);
+            var objImg = document.getElementById("introImg");
+            objImg.src = imgArray[imgNum];
+        }
+        
+    </script>
+  </head>
+
+  <body onload = "showImage()">
+	<img id = "introImg" border="0">>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        
+        <a class="btn" href="/game.html">PLAY  AGAIN</a>
+        <a class="btn" href="/">SHARE</a>
+
+      </div>
+    </div>
+    
+  </body>
+</html>
+
+
+
+
+
+
