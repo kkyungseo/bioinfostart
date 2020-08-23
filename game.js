@@ -19,12 +19,11 @@ let questions = [
         choice1: '베이킹',
         choice2: '일기쓰기',
         choice3: '소설책 읽기',
-        choice4: '영화 감상',
+        choice4: '하이틴 로맨스 영화 보기',
         answer: 1,
     },
     {
-        question:
-            "편의점에서 \n 어떤 간식을 사고 싶나요?",
+        question: "편의점에서 \n 어떤 간식을 사고 싶나요?",
         choice1: "사탕",
         choice2: "초콜릿",
         choice3: "말린 과일",
@@ -33,10 +32,10 @@ let questions = [
     },
     {
         question: "인테리어에 도전! \n 어떤 물품을 살까요?",
-        choice1: "파스텔 컬러 벽지",
-        choice2: "풀음향장비",
-        choice3: "인테리어용 책",
-        choice4: "수납용품",
+        choice1: "핑크색의 파스텔 컬러 벽지",
+        choice2: "R&B LP",
+        choice3: "다양한 잡지",
+        choice4: "하늘색의 수납용품",
         answer: 2,
     },
     {
@@ -56,11 +55,11 @@ let questions = [
         answer: 2,
     },
     {
-        question: '친구와의 쇼핑에서 \n 어떤 옷을 살까요?',
-        choice1: '밝은 색의 티셔츠',
-        choice2: '와이드팬츠',
-        choice3: '맨투맨',
-        choice4: '펑키 프린팅 티셔츠',
+        question: '친구와 다투고 나서 \n 어떻게 대처할까요?',
+        choice1: '긍정적으로 상황을 해석',
+        choice2: '서운했던 이유 설명',
+        choice3: '냉철하게 문제 분석',
+        choice4: '화를 낸 후에 화해',
         answer: 4,
     }
 ];
