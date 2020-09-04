@@ -55,6 +55,14 @@ let questions = [
         answer: 2,
     },
     {
+        question: '스트레스가 쌓인 상황! \n 어떤 노래를 들을까요?',
+        choice1: '아이돌 가수의 신나는 댄스 뮤직',
+        choice2: '눈물이 핑 도는 이별 발라드',
+        choice3: '그루브 타게 되는 알앤비',
+        choice4: '귀에 꽂히는 빠른 힙합',
+        answer: 2,
+    },
+    {
         question: '친구와 다투고 나서 \n 어떻게 대처할까요?',
         choice1: '긍정적으로 상황을 해석',
         choice2: '서운했던 이유 설명',
@@ -64,7 +72,7 @@ let questions = [
     }
 ];
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 6;
+const MAX_QUESTIONS = 7;
 
 
 startGame = () => {
