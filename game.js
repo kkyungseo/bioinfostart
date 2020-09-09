@@ -16,34 +16,34 @@ let availableQuesions = [];
 let questions = [
     {
         question: '여유로운 주말, \n 무엇으로 시간을 보낼까요?',
-        choice1: '디저트 베이킹',
-        choice2: '일기 쓰기',
+        choice1: '베이킹',
+        choice2: '일기쓰기',
         choice3: '소설책 읽기',
         choice4: '하이틴 로맨스 영화 보기',
         answer: 1,
     },
     {
-        question: "편의점에 간 당신, \n 어떤 간식을 사고 싶나요?",
+        question: "편의점에서 \n 어떤 간식을 사고 싶나요?",
         choice1: "사탕",
-        choice2: "매운 라면",
-        choice3: "견과류",
+        choice2: "초콜릿",
+        choice3: "말린 과일",
         choice4: "나쵸",
         answer: 2,
     },
     {
         question: "인테리어에 도전! \n 어떤 물품을 살까요?",
         choice1: "핑크색의 파스텔 컬러 벽지",
-        choice2: "잔잔한 클래식 LP판",
+        choice2: "감성 LP판",
         choice3: "다양한 잡지",
         choice4: "하늘색의 수납용품",
         answer: 2,
     },
     {
-        question: '아침에 일어났을 때 \n 어떤 날씨가 좋을까요?',
+        question: '아침에 일어났을 때 \n 날씨가 어떠면 좋을까요?',
         choice1: '햇살이 비치는 날씨',
-        choice2: '안개가 짙게 깔린 날씨',
-        choice3: '비가 고요하게 내리는 날씨',
-        choice4: '구름이 많은 시원한 날씨',
+        choice2: '구름이 깔린 날씨',
+        choice3: '비가 조용하게 내리는 날씨',
+        choice4: '햇빛이 가려진 시원한 날씨',
         answer: 3,
     },
     {
@@ -55,24 +55,33 @@ let questions = [
         answer: 2,
     },
     {
-        question: '스트레스가 쌓인 상황! \n 어떤 노래를 들을까요?',
-        choice1: '아이돌 가수의 신나는 댄스 뮤직',
-        choice2: '눈물이 핑 도는 이별 발라드',
-        choice3: '그루브 타게 되는 알앤비',
-        choice4: '귀에 꽂히는 빠른 힙합',
-        answer: 2,
-    },
-    {
-        question: '친구와 다투고 나서 \n 어떻게 대처할까요?',
+        question: '친구와 다툰 후, \n 당신의 대처는?',
         choice1: '긍정적으로 상황을 해석',
         choice2: '서운했던 이유 설명',
         choice3: '냉철하게 문제 분석',
         choice4: '화를 낸 후에 화해',
         answer: 4,
+    },
+    {
+        question: '스트레스가 쌓인 상황! \n 어떤 노래를 들을까요?',
+        choice1: '아이돌 가수의 신나는 댄스 뮤직',
+        choice2: '눈물이 핑 도는 이별 발라드',
+        choice3: '그루브 타게 되는 R&B',
+        choice4: '귀에 꽂히는 빠른 힙합과 락',
+        answer: 4,
+    },
+    {
+        question: '쇼핑에서 \n 어떤 옷을 새로 살까요?',
+        choice1: '밝은 색의 티셔츠',
+        choice2: '와이드 팬츠',
+        choice3: '갈색 맨투맨',
+        choice4: '펑키 프린팅 티셔츠',
+        answer: 4,
     }
+
 ];
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 7;
+const MAX_QUESTIONS = 8;
 
 
 startGame = () => {
