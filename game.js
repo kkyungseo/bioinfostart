@@ -1,6 +1,7 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 question.style.textAlign="center";
+question.style.fontSize="30px";
 
 var br = document.createElement("br");
 document.body.appendChild(br);
